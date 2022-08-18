@@ -143,11 +143,11 @@ span{
     color: #ff0000;
 }
 .productsection{
-    width: 85%;
+    width: 60%;
     background-color: ;
     box-shadow: 2px 2px 30px rg(167, 158, 245, 0.2);
     display: flex;
-    margin: 30px auto;
+    margin: 50px auto;
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
@@ -233,18 +233,13 @@ span{
 	margin:50px auto;
 	justify-content: space-around;
 	align-items: center;
-	padding:30px;
+	padding:50px;
 	margin-bottom: 150px !important;
 }
 
 .aboutBox{
 	width:40%;
 	font-family:myriad pro;
-}
-.aboutBox img{
-	width:100%;
-	height: 100%;
-	object-fit:contain;
 }
 .aboutBox img{
 	width:100%;
@@ -280,14 +275,14 @@ span{
 }
 .NotificationInput{
     width:500px;
-    background-color: #fff;
-    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    background-color: #ffa;
+    border-radius: 6% / 50%;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:5px 20px;
-    box-shadow: 2px 5px 30px rgba(0,0,0,0.1);
+    padding:10px 30px;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
     margin-top: 30px;
 }
 .NotificationInput input{
@@ -298,7 +293,7 @@ span{
     background-color: transparent;
 }
 .NotificationButton{
-    width:120px;
+    width: 120px;
     height: 40px;
     background-color: #202020;
     border-radius: 20px;
@@ -322,4 +317,7 @@ footer {
 footer p {
     text-align: center;
     color: #f2f2f2;
-} 
+}
+.sadik{
+    font-size: bold;
+}
